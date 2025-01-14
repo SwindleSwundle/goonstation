@@ -6300,3 +6300,30 @@ MAJOR_AST(29)
 MAJOR_AST(30)
 
 #undef MAJOR_AST
+
+
+
+// --- DRILL --- //
+/area/drill/foyer
+	name = "Drill Foyer"
+	icon_state = "yellow"
+
+/area/drill/operation
+	name = "Drill Operation Room"
+	icon_state = "yellow"
+
+/area/drill/control
+	name = "Drill Control Room"
+	icon_state = "yellow"
+
+/area/drill/conveyor
+	name = "Drill Conveyor"
+	icon_state = "yellow"
+
+/area/drill/maintenance
+	name = "Drill Maintenance"
+	icon_state = "yellow"
+
+/area/drill/Laboratory
+	name = "Drill Laboratory"
+	icon_state = "yellow"
