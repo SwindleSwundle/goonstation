@@ -46,7 +46,9 @@ var/global/list/mapNames = list(
 	"Bellerophon Fleet" =	list("id" = "FLEET",		"settings" = "fleet",			"playerPickable" = FALSE),
 	"blank" =				list("id" = "BLANK",		"settings" = "", 				"playerPickable" = FALSE),
 	"blank_underwater" =	list("id" = "BLANK_UNDERWATER", "settings" = "", 			"playerPickable" = FALSE),
-	"DevTest" =				list("id" = "DEVTEST",		"settings" = "devtest",			"playerPickable" = FALSE,	"MaxPlayersAllowed" = 69)
+	"DevTest" =				list("id" = "DEVTEST",		"settings" = "devtest",			"playerPickable" = FALSE,	"MaxPlayersAllowed" = 69),
+	"Battlefield" =			list("id" = "BATTLEFIELD",	"settings" = "battlefield",		"playerPickable" = TRUE)
+
 )
 
 /obj/landmark/map
@@ -1262,6 +1264,11 @@ var/global/list/mapNames = list(
 
 	valid_nuke_targets = list("the developer zone" = list(/area/station/devzone),
 		"the test chamber or space" = list(/area/space))
+
+
+/datum/map_settings/battlefield
+	name = "BATTLEFIELD"
+	display_name = "BATTLEFIELD TEST MAP"
 
 
 /area/shuttle/merchant_shuttle/left_centcom

@@ -53,3 +53,10 @@
 #define ROLE_PIRATE_FIRST_MATE "pirate_first_mate"
 #define ROLE_PIRATE_CAPTAIN "pirate_captain"
 #define ROLE_CONFIRMED_CRIMINAL "confirmed_criminal"
+
+
+// BATTLEFIELD - TEST
+#define ROLE_TEAM1_LEADER "team1_leader"
+#define ROLE_TEAM1_SOLDIER "team1_soldier"
+#define ROLE_TEAM2_LEADER "team1_leader"
+#define ROLE_TEAM2_SOLDIER "team1_solider"

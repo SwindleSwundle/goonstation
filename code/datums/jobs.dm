@@ -3031,3 +3031,122 @@ ABSTRACT_TYPE(/datum/job/special/pod_wars)
 			F["special_spawn_location_coords"] >> maybe_coords
 			if(islist(maybe_coords))
 				src.special_spawn_location = locate(maybe_coords[1], maybe_coords[2], maybe_coords[3])
+
+
+
+// BATTLEFIELD - TEST
+ABSTRACT_TYPE(/datum/job/team1)
+/datum/job/team1
+	linkcolor = "#570000"
+	slot_card = /obj/item/card/id/engineering
+	job_category = JOB_ENGINEERING
+
+/datum/job/team1/squadlead
+	name = "Squad Leader"
+	limit = 1
+	wages = PAY_TRADESMAN
+	trait_list = list("training_security")
+	access_string = "Squad Leader"
+	slot_suit = list(/obj/item/clothing/suit/armor/NT)
+	slot_jump = list(/obj/item/clothing/under/misc/turds)
+	slot_head = list(/obj/item/clothing/head/NTberet)
+	slot_belt = list(/obj/item/tank/emergency_oxygen/extended)
+	slot_mask = list(/obj/item/clothing/mask/gas)
+	slot_glov = list(/obj/item/clothing/gloves/latex)
+	slot_back = list(/obj/item/storage/backpack/NT)
+	slot_eyes = list(/obj/item/clothing/glasses/thermal)
+	items_in_backpack = list(/obj/item/crowbar,/obj/item/device/light/flashlight,/obj/item/breaching_charge,/obj/item/breaching_charge,/obj/item/gun/energy/plasma_gun)
+	wiki_link = "https://wiki.ss13.co/xxx"
+
+/datum/job/team1/gunner
+	name = "Gunner"
+	limit = 1
+	wages = PAY_TRADESMAN
+	trait_list = list("training_security")
+	access_string = "Squad Leader"
+	slot_suit = list(/obj/item/clothing/suit/armor/NT)
+	slot_jump = list(/obj/item/clothing/under/misc/turds)
+	slot_head = list(/obj/item/clothing/head/NTberet)
+	slot_belt = list(/obj/item/tank/emergency_oxygen/extended)
+	slot_mask = list(/obj/item/clothing/mask/gas)
+	slot_glov = list(/obj/item/clothing/gloves/latex)
+	slot_back = list(/obj/item/storage/backpack/NT)
+	slot_eyes = list(/obj/item/clothing/glasses/thermal)
+	items_in_backpack = list(/obj/item/crowbar,/obj/item/device/light/flashlight,/obj/item/breaching_charge,/obj/item/breaching_charge,/obj/item/gun/energy/plasma_gun)
+	wiki_link = "https://wiki.ss13.co/xxx"
+
+/datum/job/team1/medic
+	name = "Gunner"
+	limit = 1
+	wages = PAY_TRADESMAN
+	trait_list = list("training_security")
+	access_string = "Squad Leader"
+	slot_suit = list(/obj/item/clothing/suit/armor/NT)
+	slot_jump = list(/obj/item/clothing/under/misc/turds)
+	slot_head = list(/obj/item/clothing/head/NTberet)
+	slot_belt = list(/obj/item/tank/emergency_oxygen/extended)
+	slot_mask = list(/obj/item/clothing/mask/gas)
+	slot_glov = list(/obj/item/clothing/gloves/latex)
+	slot_back = list(/obj/item/storage/backpack/NT)
+	slot_eyes = list(/obj/item/clothing/glasses/thermal)
+	items_in_backpack = list(/obj/item/crowbar,/obj/item/device/light/flashlight,/obj/item/breaching_charge,/obj/item/breaching_charge,/obj/item/gun/energy/plasma_gun)
+	wiki_link = "https://wiki.ss13.co/xxx"
+
+
+
+ABSTRACT_TYPE(/datum/job/team2)
+/datum/job/team2
+	linkcolor = "#570000"
+	slot_card = /obj/item/card/id/engineering
+	job_category = JOB_ENGINEERING
+
+/datum/job/team2/squadlead
+	name = "Squad Leader"
+	limit = 1
+	wages = PAY_TRADESMAN
+	trait_list = list("training_security")
+	access_string = "Squad Leader"
+	slot_suit = list(/obj/item/clothing/suit/armor/NT)
+	slot_jump = list(/obj/item/clothing/under/misc/turds)
+	slot_head = list(/obj/item/clothing/head/NTberet)
+	slot_belt = list(/obj/item/tank/emergency_oxygen/extended)
+	slot_mask = list(/obj/item/clothing/mask/gas)
+	slot_glov = list(/obj/item/clothing/gloves/latex)
+	slot_back = list(/obj/item/storage/backpack/NT)
+	slot_eyes = list(/obj/item/clothing/glasses/thermal)
+	items_in_backpack = list(/obj/item/crowbar,/obj/item/device/light/flashlight,/obj/item/breaching_charge,/obj/item/breaching_charge,/obj/item/gun/energy/plasma_gun)
+	wiki_link = "https://wiki.ss13.co/xxx"
+
+/datum/job/team2/gunner
+	name = "Gunner"
+	limit = 1
+	wages = PAY_TRADESMAN
+	trait_list = list("training_security")
+	access_string = "Squad Leader"
+	slot_suit = list(/obj/item/clothing/suit/armor/NT)
+	slot_jump = list(/obj/item/clothing/under/misc/turds)
+	slot_head = list(/obj/item/clothing/head/NTberet)
+	slot_belt = list(/obj/item/tank/emergency_oxygen/extended)
+	slot_mask = list(/obj/item/clothing/mask/gas)
+	slot_glov = list(/obj/item/clothing/gloves/latex)
+	slot_back = list(/obj/item/storage/backpack/NT)
+	slot_eyes = list(/obj/item/clothing/glasses/thermal)
+	items_in_backpack = list(/obj/item/crowbar,/obj/item/device/light/flashlight,/obj/item/breaching_charge,/obj/item/breaching_charge,/obj/item/gun/energy/plasma_gun)
+	wiki_link = "https://wiki.ss13.co/xxx"
+
+/datum/job/team2/medic
+	name = "Gunner"
+	limit = 1
+	wages = PAY_TRADESMAN
+	trait_list = list("training_security")
+	access_string = "Squad Leader"
+	slot_suit = list(/obj/item/clothing/suit/armor/NT)
+	slot_jump = list(/obj/item/clothing/under/misc/turds)
+	slot_head = list(/obj/item/clothing/head/NTberet)
+	slot_belt = list(/obj/item/tank/emergency_oxygen/extended)
+	slot_mask = list(/obj/item/clothing/mask/gas)
+	slot_glov = list(/obj/item/clothing/gloves/latex)
+	slot_back = list(/obj/item/storage/backpack/NT)
+	slot_eyes = list(/obj/item/clothing/glasses/thermal)
+	items_in_backpack = list(/obj/item/crowbar,/obj/item/device/light/flashlight,/obj/item/breaching_charge,/obj/item/breaching_charge,/obj/item/gun/energy/plasma_gun)
+	wiki_link = "https://wiki.ss13.co/xxx"

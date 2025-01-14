@@ -50,6 +50,9 @@
 #define JOB_ENGINEERING "engineering"
 #define JOB_CIVILIAN "civilian"
 #define JOB_CREATED "created"
+//BATTLEFIELD - TEST
+#define JOB_TEAM1 "team1"
+#define JOB_TEAM2 "team2"
 
 // Job categories
 #define STAPLE_JOBS (1<<0)

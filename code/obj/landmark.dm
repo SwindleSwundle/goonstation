@@ -68,6 +68,20 @@ var/global/list/job_start_locations = list()
 				job_start_locations[src.name] += src.loc
 		..()
 
+/* ===== BATTLEFIELD TEST ===== */
+/obj/landmark/start/job/team1/gunner
+	icon = 'icons/map-editing/job_start.dmi'
+
+/obj/landmark/start/job/team1/doctor
+	icon = 'icons/map-editing/job_start.dmi'
+
+/obj/landmark/start/job/team2/gunner
+	icon = 'icons/map-editing/job_start.dmi'
+
+/obj/landmark/start/job/team2/doctor
+	icon = 'icons/map-editing/job_start.dmi'
+
+
 /* ===== Station Jobs ===== */
 
 /obj/landmark/start/job

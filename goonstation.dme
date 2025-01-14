@@ -383,6 +383,7 @@
 #include "code\datums\gamemodes\artemis_freeroam.dm"
 #include "code\datums\gamemodes\assday_classic.dm"
 #include "code\datums\gamemodes\battle_royale.dm"
+#include "code\datums\gamemodes\battlefield.dm"
 #include "code\datums\gamemodes\blob.dm"
 #include "code\datums\gamemodes\changeling.dm"
 #include "code\datums\gamemodes\conspiracy.dm"

@@ -1,5 +1,6 @@
-INCLUDE_MAP("../cogmap2.dmm")
-#ifndef GOTTA_GO_FAST_BUT_ZLEVELS_TOO_SLOW
+INCLUDE_MAP("../battlefield.dmm")
+#define TESTMODUS "1"
+#ifndef TESTMODUS
 INCLUDE_MAP("../z2.dmm")
 INCLUDE_MAP("../z3.dmm")
 #include "z4.dm"

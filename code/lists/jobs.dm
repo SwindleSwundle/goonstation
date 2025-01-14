@@ -193,3 +193,16 @@ var/list/service_gimmicks = list(
 	"Hall Monitor",
 )
 
+
+// BATTLEFIELD - TEST
+var/list/battlefield/team1 = list(
+	"Squadleader",
+	"Gunner",
+	"Medic"
+)
+
+var/list/battlefield/team2 = list(
+	"Squadleader",
+	"Gunner",
+	"Medic"
+)
