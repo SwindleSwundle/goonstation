@@ -1971,6 +1971,7 @@
 #include "code\obj\decal\poster.dm"
 #include "code\obj\decal\tile_edge.dm"
 #include "code\obj\decal\wall_flags.dm"
+#include "code\obj\drill\drill.dm"
 #include "code\obj\effects\bad_smoke.dm"
 #include "code\obj\effects\foam.dm"
 #include "code\obj\effects\harmless_smoke.dm"
