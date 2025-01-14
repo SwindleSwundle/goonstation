@@ -6324,6 +6324,6 @@ MAJOR_AST(30)
 	name = "Drill Maintenance"
 	icon_state = "yellow"
 
-/area/drill/Laboratory
+/area/drill/laboratory
 	name = "Drill Laboratory"
 	icon_state = "yellow"
