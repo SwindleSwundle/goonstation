@@ -36,6 +36,12 @@
 	bound_width = 64
 	bound_height = 32
 
+	ui_interact(mob/user, datum/tgui/ui)
+		ui = tgui_process.try_update_ui(user, src, ui)
+		if(!ui)
+			ui = new(user, src, "ComponentStorageModal")
+			ui.open()
+
 /obj/item/device/drill/drillhead
 	name = "Drill Head"
 	icon = 'icons/obj/items/drill/drill.dmi'

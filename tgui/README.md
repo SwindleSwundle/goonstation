@@ -31,7 +31,7 @@ This project uses React. Take your time to read the guide:
 
 You will need these programs to start developing in tgui:
 
-- [Node v**20**.15+](https://nodejs.org/en/download/)
+- [Node v**20**.15+](https://nodejs.org/enn/download/)
   - Using either the prebuilt installer or a package manager works.
   - **LTS v20** release is recommended instead of latest, as well as the x64 arch.
   - **DO NOT install Chocolatey if Node installer asks you to!**
